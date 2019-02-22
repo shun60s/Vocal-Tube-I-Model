@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>vocal tract tube model with noise mix  </title>
+<meta name="description" content="generate vowel /i/ sound by two tubes model and noise source" />
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-lg px-3 my-5 markdown-body">
+<h1>vocal tract tube model with noise mix  </h1>
+<p> 
+This is an experiment to generate vowel /i/ sound by two tubes model and noise source.<br /></p>
+
+<p><a href="https://github.com/shun60s/Vocal-Tube-I-Model">github repository</a><br /></p>
+
+<h2>usage  </h2>
+
+<p>Generate noise sound, using perlin noise  <br /></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+python3 PerlinNoise.py<br />
+</code></pre></div></div>
+
+
+<p>Generate pseudo vowel /i/ sound, without noise mix and with noise  <br /></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+python3 main2.py<br />
+</code></pre></div></div>
+
+<p>It will save yout_i_long.wav (without noise mix)<br />
+<img src="i_without_noise_mix_waveform.png" alt="figure1" ><br />
+and save yout_i_noise-mix_long.wav (with noise mix).<br />
+<img src="i_with_noise_mix_waveform.png" alt="figure2" ><br /></p>
+
+<h2>Document  </h2>
+
+<p>For more information, please see <a href="https://wsignal.sakura.ne.jp/onsei2007/scilab456e.html#chapter3">related WEB</a> or 
+<a href="https://wsignal.sakura.ne.jp/onsei2007/scilab6.html">same content in Japanese</a><br /></p>
+
+
+<h2>License  </h2>
+<p>MIT<br />
+Regarding to PerlinNoise.py, please follow the notice in the source code.<br /></p>
+</div>
+</body>
+</html>
